@@ -10,3 +10,4 @@ alias mv='mv -i'
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
+export PATH=/root/maven/bin:$PATH
